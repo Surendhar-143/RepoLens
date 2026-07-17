@@ -1,0 +1,25 @@
+{
+  "name": "@repolens/sdk",
+  "version": "0.1.0",
+  "description": "RepoLens TypeScript client SDK",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "repolens",
+    "sdk",
+    "api-client"
+  ],
+  "author": "RepoLens Team",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.9"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.2"
+  }
+}
